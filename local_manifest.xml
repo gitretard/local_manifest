@@ -48,7 +48,7 @@
 
         <remove-project name="android_vendor_cipher" />
         <remove-project name="android_system_core" />
-	<project path="vendor/cipher" name="android_vendor_kscope" remote="me" revision="twelve-L" />
+	<project path="vendor/cipher" name="android_vendor_cipher" remote="me" revision="twelve-L" />
         <project path="system/core" name="android_system_core" remote="me" revision="twelve-L" />
 
 <!-- Extras -->

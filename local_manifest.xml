@@ -52,7 +52,7 @@
 	
 <!-- Extras -->
 
-        <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1"/> 
+        <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="Mi" revision="lineage-18.1"/> 
 
 <!-- Extras -->
         <remove-project name="android_packages_apps_Launcher3" />

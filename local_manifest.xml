@@ -56,6 +56,6 @@
 
 <!-- Extras -->
  
-        <project path="vendor/lawnchair" name="vendor_lawnchair" remote="karan" revision="12.1"/>
+        
  
 </manifest>

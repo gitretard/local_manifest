@@ -23,7 +23,7 @@
     
 <!-- Kernel Tree -->
     
-        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="Mi" revision="a12/master"  clone-depth="1" />
+        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="Mi" revision="a12/main"  clone-depth="1" />
            
 <!-- Vendor Trees -->
     

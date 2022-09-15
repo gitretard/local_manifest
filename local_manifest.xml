@@ -46,7 +46,7 @@
         <project path="system/core" name="android_system_core" remote="me" revision="twelve-L" />
 	
 <!-- Extras -->
-
+        <remove-project name="android_packages_apps_Launcher3" />
         <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="Mi" revision="lineage-18.1"/> 
 	<project path="packages/apps/GCamGOPrebuilt-V3" name="android_packages_apps_GCamGOPrebuilt" remote="me" revision="arrow-12.1" />
         <project path="packages/apps/Lawnchair" name="lawnchair" remote="me" revision="main" />

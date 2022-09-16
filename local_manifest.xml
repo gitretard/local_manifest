@@ -7,8 +7,10 @@
                 fetch="https://github.com/newuserbtw" />
         <remote name="karan"
                 fetch="https://github.com/karann2354" />
-        <remote name="Mi"
+        <remote name="sdm"
                 fetch="https://github.com/mi-sdm439" />
+	<remote name="mith"
+                fetch="https://github.com/Mi-thorium" />
         <remote name="los"
                 fetch="https://github.com/LineageOS" />
 	<remote name="org"
@@ -21,18 +23,17 @@
 
 <!-- Device Trees -->
     
-        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="me" revision="a12/rom/cipher" />   
-        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="me" revision="a12/rom/cipher" />
+        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="me" revision="a13/master" />   
+        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="me" revision="a13/staging" />
     
 <!-- Kernel Tree -->
     
-        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="Mi" revision="a12/main"  clone-depth="1" />
+        <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="karan" revision="12.1"  clone-depth="1" />
            
 <!-- Vendor Trees -->
     
         <project path="vendor/xiaomi/Mi439"  name="vendor_xiaomi_Mi439" remote="karan" revision="12.1"  /> 
-        <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common" remote="karan" revision="12.1" />
-    
+        <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common" remote="karan" revision="13" />
 <!-- HALs -->
 
         <remove-project name="android_hardware_qcom_audio" />
@@ -42,13 +43,12 @@
 
         <remove-project name="android_vendor_cipher" />
 	<remove-project name="android_system_core" />
-	<project path="vendor/cipher" name="android_vendor_cipher" remote="me" revision="twelve-L" />
-        <project path="system/core" name="android_system_core" remote="me" revision="twelve-L" />
+	<project path="vendor/cipher" name="android_vendor_cipher" remote="me" revision="thirteen" />
+        <project path="system/core" name="android_system_core" remote="me" revision="thirteen" />
 	
 <!-- Extras -->
         <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="Mi" revision="lineage-18.1"/> 
 	<project path="packages/apps/GCamGOPrebuilt-V3" name="android_packages_apps_GCamGOPrebuilt" remote="me" revision="arrow-12.1" />
-      
         
  
 </manifest>

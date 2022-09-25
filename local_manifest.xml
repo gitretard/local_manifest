@@ -18,7 +18,7 @@
         <remote name="lolz"
                 fetch="https://github.com/Jprimero15/lolz_kernel_redmi8" />
         <remote name="arrow"
-                fetch="https://github.com/ArrowOS"
+                fetch="https://github.com/ArrowOS" />
 	<remote name="arrow-dev"
                 fetch="https://github.com/ArrowOS-Devices" />
 	

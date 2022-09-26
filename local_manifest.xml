@@ -52,6 +52,6 @@
 <!-- Extras -->
         <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="sdm" revision="lineage-18.1"/> 
 	<project path="packages/apps/GCamGOPrebuilt-V3" name="android_packages_apps_GCamGOPrebuilt" remote="me" revision="arrow-12.1" />
-        <project path="vendor/qcom/opensource/libfmjni" name ="android_vendor_qcom_opensource/_libfmjni" remote="arw" revision="arrow-11.0" />
+        <project path="vendor/qcom/opensource/libfmjni" name ="android_vendor_qcom_opensource_libfmjni" remote="arw" revision="arrow-11.0" />
  
 </manifest>

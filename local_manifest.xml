@@ -35,7 +35,7 @@
 <!-- Vendor Trees -->
     
         <project path="vendor/xiaomi/Mi439"  name="vendor_xiaomi_Mi439" remote="me" revision="13"  /> 
-        <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common" remote="karan" revision="thirteen" />
+        <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common" remote="me" revision="thirteen" />
 <!-- HALs -->
         <remove-project name="android_hardware_qcom_wlan" />
         <remove-project name="android_hardware_qcom_audio" />

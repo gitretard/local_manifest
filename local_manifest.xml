@@ -23,7 +23,7 @@
                 fetch="https://github.com/ArrowOS-Devices" />
         
 	<remote name="clang" 
-                fetch="https://github.com/kdrag0n" />q
+                fetch="https://github.com/kdrag0n" />
 
 <!-- Device Trees -->
     

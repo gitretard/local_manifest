@@ -22,7 +22,7 @@
 	<remote name="arrow-dev"
                 fetch="https://github.com/ArrowOS-Devices" />
         <remote name="pami"
-                fetch="https://github.com/ProtonAOSP-mi439"
+                fetch="https://github.com/ProtonAOSP-mi439" />
         
 	<remote name="clang" 
                 fetch="https://github.com/kdrag0n" />

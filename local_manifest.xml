@@ -21,6 +21,8 @@
                 fetch="https://github.com/ArrowOS" />
 	<remote name="arrow-dev"
                 fetch="https://github.com/ArrowOS-Devices" />
+        <remote name="pami"
+                fetch="https://github.com/ProtonAOSP-mi439"
         
 	<remote name="clang" 
                 fetch="https://github.com/kdrag0n" />
@@ -57,4 +59,7 @@
         <project path="vendor/qcom/opensource/libfmjni" name ="android_vendor_qcom_opensource_libfmjni" remote="arw" revision="arrow-11.0" />
 <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-</manifest>
+<!-- Bionic -->
+        <remove-project name="android_bionic" />
+        <project path="bionic" name="android_bionic" remote="pami" revision="sc" />
+</manifest> 

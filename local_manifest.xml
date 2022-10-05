@@ -60,5 +60,5 @@
 <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 <!-- Bionic -->
-        <project path="bionic" name="android_bionic" remote="pami" revision="sc" />
+       
 </manifest> 

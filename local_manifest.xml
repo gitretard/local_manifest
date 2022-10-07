@@ -44,7 +44,7 @@
         <remove-project name="android_hardware_qcom_wlan" />
         <remove-project name="android_hardware_qcom_audio" />
 	<project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mith" revision="lineage-19.1-caf-msm8953"/>
-	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="karan" revision="13-wlan"/>
+	
 
 <!-- Patches -->
 

@@ -48,10 +48,10 @@
 
 <!-- Patches -->
 
-        <remove-project name="android_vendor_cipher" />
-	<remove-project name="android_system_core" />
-	<project path="vendor/cipher" name="android_vendor_cipher" remote="me" revision="thirteen" />
-        <project path="system/core" name="android_system_core" remote="me" revision="thirteen" />
+        <remove-project name="vendor_derp" />
+	<remove-project name="system_core" />
+	<project path="vendor/derp" name="vendor_derp" remote="me" revision="thirteen" />
+        <project path="system/core" name="system_core" remote="me" revision="thirteen" />
 	
 <!-- Extras -->
         <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="sdm" revision="lineage-18.1"/> 

@@ -11,8 +11,8 @@
                 fetch="https://github.com/mi-sdm439" />
 	<remote name="mith"
                 fetch="https://github.com/Mi-thorium" />
-        <remote name="los"
-                fetch="https://github.com/LineageOS" />
+        <!-- remote name="los"
+                fetch="https://github.com/LineageOS" -->
 	<remote name="org"
 		fetch="https://github.com/orgs/New-android-builder" />
         <remote name="lolz"

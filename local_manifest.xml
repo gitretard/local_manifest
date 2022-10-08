@@ -50,7 +50,7 @@
 
         <remove-project name="platform_vendor_syberia" />
 	<remove-project name="platform_system_core" />
-	<project path="vendor/derp" name="platform_vendor_syberia" remote="me" revision="13.0" />
+	<project path="vendor/syberia" name="platform_vendor_syberia" remote="me" revision="13.0" />
         <project path="system/core" name="platform_system_core" remote="me" revision="13.0" />
 	
 <!-- Extras -->

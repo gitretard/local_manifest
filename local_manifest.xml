@@ -41,8 +41,8 @@
         <project path="vendor/xiaomi/Mi439"  name="vendor_xiaomi_Mi439" remote="me" revision="13"  /> 
         <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common" remote="me" revision="thirteen" />
 <!-- HALs -->
-        <remove-project name="android_hardware_qcom_wlan" />
-        <remove-project name="android_hardware_qcom_audio" />
+        <!-- remove-project name="android_hardware_qcom_wlan" >
+        <!-- remove-project name="android_hardware_qcom_audio" >
 	<project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mith" revision="lineage-19.1-caf-msm8953"/>
 	
 

@@ -60,7 +60,7 @@
 	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="karan" revision="thirteen" />
 	<project path="external/tinyxml2" name="android_external_tinyxml2" remote="los" revision="cm-14.1" />
 <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" -->
 <!-- Bionic -->
        
 </manifest> 

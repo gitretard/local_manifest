@@ -56,7 +56,7 @@
 <!-- Other -->
         <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="sdm" revision="lineage-18.1"/> 
 	<project path="packages/apps/GCamGOPrebuilt-V3" name="android_packages_apps_GCamGOPrebuilt" remote="me" revision="arrow-12.1" />
-        <project path="vendor/qcom/opensource/libfmjni" name ="android_vendor_qcom_opensource_libfmjni" remote="arw" revision="arrow-11.0" />
+        <!-- project path="vendor/qcom/opensource/libfmjni" name ="android_vendor_qcom_opensource_libfmjni" remote="arw" revision="arrow-11.0" -->
 	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="karan" revision="thirteen" />
 	<!--project path="external/tinyxml2" name="android_external_tinyxml2" remote="los" revision="cm-14.1" -->
 	<!-- remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" -->

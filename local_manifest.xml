@@ -48,10 +48,10 @@
 
 <!-- Patches -->
 
-        <remove-project name="platform_vendor_syberia" />
-	<remove-project name="platform_system_core" />
-	<project path="vendor/syberia" name="platform_vendor_syberia" remote="me" revision="13.0" />
-        <project path="system/core" name="platform_system_core" remote="me" revision="13.0" />
+        <remove-project name="vendor_yaap" />
+	<remove-project name="system_core" />
+	<project path="vendor/yaap" name="vendor_yaap" remote="me" revision="thirteen" />
+        <project path="system/core" name="yaap_system_core" remote="me" revision="thirteen" />
 	
 <!-- Other -->
         <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="sdm" revision="lineage-18.1"/> 
@@ -59,8 +59,8 @@
         <project path="vendor/qcom/opensource/libfmjni" name ="android_vendor_qcom_opensource_libfmjni" remote="arw" revision="arrow-11.0" />
 	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="karan" revision="thirteen" />
 	<!--project path="external/tinyxml2" name="android_external_tinyxml2" remote="los" revision="cm-14.1" -->
-	<remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
-	<project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="arw" revision="arrow-13.0" />
+	<!-- remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" -->
+	<!-- project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="arw" revision="arrow-13.0" -->
 	
 <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />

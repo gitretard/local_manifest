@@ -48,10 +48,10 @@
 
 <!-- Patches -->
 
-        <remove-project name="vendor_yaap" />
+        <remove-project name="vendor_potato" />
 	<remove-project name="system_core" />
-	<project path="vendor/yaap" name="vendor_yaap" remote="me" revision="thirteen" />
-        <project path="system/core" name="yaap_system_core" remote="me" revision="thirteen" />
+	<project path="vendor/potato" name="vendor_potato" remote="me" revision="gnocchi-release" />
+        <project path="system/core" name="potato_system_core" remote="me" revision="gnocchi-release" />
 	
 <!-- Other -->
         <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="sdm" revision="lineage-18.1"/> 
